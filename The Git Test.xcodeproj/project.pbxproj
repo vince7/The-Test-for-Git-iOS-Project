@@ -21,6 +21,7 @@
 		7CA23BD919AD566F000863BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA23BBB19AD566F000863BB /* UIKit.framework */; };
 		7CA23BE119AD566F000863BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CA23BDF19AD566F000863BB /* InfoPlist.strings */; };
 		7CA23BE319AD566F000863BB /* The_Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA23BE219AD566F000863BB /* The_Git_TestTests.m */; };
+		7CA23BEE19AD584C000863BB /* ORTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA23BED19AD584C000863BB /* ORTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7CA23BDE19AD566F000863BB /* The Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		7CA23BE019AD566F000863BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CA23BE219AD566F000863BB /* The_Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Git_TestTests.m; sourceTree = "<group>"; };
+		7CA23BEC19AD584C000863BB /* ORTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTest.h; sourceTree = "<group>"; };
+		7CA23BED19AD584C000863BB /* ORTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				7CA23BC919AD566F000863BB /* Main.storyboard */,
 				7CA23BCC19AD566F000863BB /* ORViewController.h */,
 				7CA23BCD19AD566F000863BB /* ORViewController.m */,
+				7CA23BEC19AD584C000863BB /* ORTest.h */,
+				7CA23BED19AD584C000863BB /* ORTest.m */,
 				7CA23BCF19AD566F000863BB /* Images.xcassets */,
 				7CA23BBE19AD566F000863BB /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CA23BEE19AD584C000863BB /* ORTest.m in Sources */,
 				7CA23BC419AD566F000863BB /* main.m in Sources */,
 				7CA23BC819AD566F000863BB /* ORAppDelegate.m in Sources */,
 				7CA23BCE19AD566F000863BB /* ORViewController.m in Sources */,
